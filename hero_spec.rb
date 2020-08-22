@@ -2,9 +2,13 @@ require './hero'
 
 describe Hero do
 	
+	# before do
+	#	@hero = Hero.new "don"
+	# end
+	
 	it "has a capitalized name" do
 		hero = Hero.new 'don'
-		expect(hero.name).to eq "Don"
+		expect(hero.name).to eq "Don"    #  @hero.name...
 	end
 
 	it "can power up" do
